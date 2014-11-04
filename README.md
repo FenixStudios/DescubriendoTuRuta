@@ -24,4 +24,7 @@ Para tener un panorama más amplio sobre el funcionamiento del elemento Web te d
 
 
 <h2>Notas</h2>
-Este repositorio contiene una versión prototipo en fase experimental y con fin único de demostrar la funcionalidad general del proyecto. No se ha realizado una validación extensiva al mismo por lo cual no es posible garantizar su adecuado funcionamiento en un entorno productivo.
+<ul>
+<li>Este repositorio contiene una versión prototipo en fase experimental y con fin único de demostrar la funcionalidad general del proyecto. No se ha realizado una validación extensiva al mismo por lo cual no es posible garantizar su adecuado funcionamiento en un entorno productivo.</li>
+<li>Las indicaciones para configurar cada componente del prototipo se encuentran dentro de la carpeta correspondiente a cada uno.</li>
+</ul>
