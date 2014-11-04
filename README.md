@@ -16,10 +16,12 @@ La app para el dispositivo móvil permite además la generación de informes sob
 En la propuesta se incluye una aplicación web que permite la consulta, análisis y exportación de los datos (rutas, informes de percances en vialidades, etc.) para el aprovechamiento de la SCT, otras dependencias del gobierno, empresas e investigadores.
 
 Para tener un panorama más amplio sobre el funcionamiento del elemento Web te dejamos estos recursos:
+<ul>
+<li>Para ver un video en donde se muestra de forma rápida y clara la funcionalidad app web visita <a href= http://youtu.be/GSfYcVZxa24>este enlace</a>.</li>
+<li>Para ver el manual de usuario de la app web visita <a href= https://drive.google.com/file/d/0B9rNPgW-WT9pZjNLQ0lqVVBUMmM/view?usp=sharing>este enlace</a>.</li>
+</ul>
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/GSfYcVZxa24" frameborder="0" allowfullscreen></iframe>
 
-Para ver el manual de usuario de la app web visita <a href= https://drive.google.com/file/d/0B9rNPgW-WT9pZjNLQ0lqVVBUMmM/view?usp=sharing>este enlace</a>.
 
 <h2>Notas</h2>
 Este repositorio contiene una versión prototipo en fase experimental y con fin único de demostrar la funcionalidad general del proyecto. No se ha realizado una validación extensiva al mismo por lo cual no es posible garantizar su adecuado funcionamiento en un entorno productivo.
