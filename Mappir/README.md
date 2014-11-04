@@ -15,6 +15,6 @@ Para instalar y configurar estos programas siga las instrucciones correspondient
 Otra opción para la configuración del entorno base es utilizar <a href=https://www.apachefriends.org/es/index.html>XAMPP</a>.
 
 <h3>App Web</h3>
-Una vez configurado el software base, abra en modo de edición el archivo app.js localizado dentro de la carpeta scripts y ubiquese en la linea 214 (url: 'http://<servidor>/info.php',) y reemplace el texto "<servidor>" por la ruta correspondiente al Servicio Web del prototipo.
+Una vez configurado el software base, abra en modo de edición el archivo app.js localizado dentro de la carpeta scripts y ubiquese en la linea 214 (url: 'http://\<servidor\>/info.php',) y reemplace el texto "\<servidor\>" por la ruta correspondiente al Servicio Web del prototipo.
 
 Finalmente copie el contenido de la carpeta "Mappir" al directorio de su servidor de aplicaciones deseado.
