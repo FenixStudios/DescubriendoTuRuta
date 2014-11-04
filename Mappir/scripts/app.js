@@ -211,12 +211,12 @@ function validateForm() {
     $("#loginError").hide();
 
     $.ajax({
-        url: 'http://ArturoPC/WSCoords/api/Coords',
+        url: 'http://<servidor>/info.php',
         type: 'GET',
         timeout: 12000,
         data: {
-            User: loginform.username.value,
-            Pass: loginform.password.value
+            user: loginform.username.value,
+            pass: loginform.password.value
         },
         success: function (resp) {
             if (resp) {
@@ -322,7 +322,7 @@ var styleFunction = function (feature, resolution) {
 function OnSuccess(data) {
     estadosSource = new ol.source.KML({
         projection: 'EPSG:3857',
-        url: '../data/estados.kml'
+        url: 'data/estados.kml'
     });
     estadosSource.once('change', function () {
         var states = Enumerable.From(estadosSource.getFeatures()).OrderBy(function (d) {
@@ -340,7 +340,7 @@ function OnSuccess(data) {
     var heatsource = new ol.source.Vector();
     for (var i = 0; i < data.length; i++) {
         featureList.push(data[i]);
-        var point = new ol.Feature({ geometry: new ol.geom.Point(ol.proj.transform([data[i].Lon, data[i].Lat], 'EPSG:4326', 'EPSG:3857')) });
+        var point = new ol.Feature({ geometry: new ol.geom.Point(ol.proj.transform([parseFloat(data[i].Lon), parseFloat(data[i].Lat)], 'EPSG:4326', 'EPSG:3857')) });
         point.attributes = {
             type: data[i].Tipo,
             nombre: data[i].Nombre,
@@ -522,7 +522,7 @@ function setLayers(data) {
             if (layers[i].get('name') == type) {
                 map.removeLayer(layers[i]);
                 features.forEach(function (d) {
-                    var point = new ol.Feature({ geometry: new ol.geom.Point(ol.proj.transform([d.Lon, d.Lat], 'EPSG:4326', 'EPSG:3857')) });
+                    var point = new ol.Feature({ geometry: new ol.geom.Point(ol.proj.transform([parseFloat(d.Lon), parseFloat(d.Lat)], 'EPSG:4326', 'EPSG:3857')) });
                     point.attributes = {
                         type: d.Tipo,
                         nombre: d.Nombre,
