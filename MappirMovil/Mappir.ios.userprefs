@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone4s.7.0" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mappir/Controls/RadialMenu.cs">
+    <Files>
+      <File FileName="Mappir/Controls/RadialMenu.cs" Line="1" Column="1" />
+      <File FileName="Mappir/Data/AnotacionRuta.cs" Line="28" Column="28" />
+      <File FileName="Mappir/MappirViewController.cs" Line="21" Column="21" />
+      <File FileName="Mappir/Delegate/CustomMapDelegateRuta.cs" Line="44" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/MacUser/Projects/Mappir/Mappir/Controls/RadialMenu.cs" line="559" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Mappir/Controls/RadialMenu.cs" line="526" offsetX="654" offsetY="7875" expression="content" liveUpdate="False" />
+    <Watch file="Mappir/Controls/RadialMenu.cs" line="527" offsetX="423" offsetY="7890" expression="data" liveUpdate="True" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

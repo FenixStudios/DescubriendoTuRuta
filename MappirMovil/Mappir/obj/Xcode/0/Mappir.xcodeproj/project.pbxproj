@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BC9703B0000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5A7CD90000000000000000 /* UIKit.framework */; };
+		D5F136E00000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F0200C0000000000000000 /* MapKit.framework */; };
+		1F016F680000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22927C060000000000000000 /* Foundation.framework */; };
+		126C51B10000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15FD5E4F0000000000000000 /* CoreGraphics.framework */; };
+		396E1A840000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF27220000000000000000 /* Default-568h@2x.png */; };
+		EA1831C00000000000000000 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 12328FBA0000000000000000 /* Default.png */; };
+		3CCC44060000000000000000 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D50A4000000000000000000 /* Default@2x.png */; };
+		2765F8520000000000000000 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E88118E0000000000000000 /* Icon-60@2x.png */; };
+		3BB7A2600000000000000000 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C86C400000000000000000 /* Icon-76@2x.png */; };
+		AAAB04600000000000000000 /* Icon-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3BBCE400000000000000000 /* Icon-iPad@2x.png */; };
+		38D571300000000000000000 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C667DCE0000000000000000 /* Icon.png */; };
+		2700321A0000000000000000 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A913EB80000000000000000 /* Icon@2x.png */; };
+		152AF3040000000000000000 /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BBFFA20000000000000000 /* account.png */; };
+		1FAB35C20000000000000000 /* chart.png in Resources */ = {isa = PBXBuildFile; fileRef = 233C42600000000000000000 /* chart.png */; };
+		DD5F6AC00000000000000000 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 1167034A0000000000000000 /* contact.png */; };
+		3C00B7960000000000000000 /* filter.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F91C4340000000000000000 /* filter.png */; };
+		A1206F200000000000000000 /* filter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3139000000000000000000 /* filter@2x.png */; };
+		1823564E0000000000000000 /* item.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BB462EC0000000000000000 /* item.png */; };
+		64E173800000000000000000 /* lead.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DF23D600000000000000000 /* lead.png */; };
+		3478D8220000000000000000 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 3809E4C00000000000000000 /* list.png */; };
+		22A3990C0000000000000000 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2634A5AA0000000000000000 /* list@2x.png */; };
+		109B76DA0000000000000000 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 142C83780000000000000000 /* map.png */; };
+		3EC637C40000000000000000 /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 257446200000000000000000 /* map@2x.png */; };
+		2CF0F8AE0000000000000000 /* opportunity.png in Resources */ = {isa = PBXBuildFile; fileRef = 3082054C0000000000000000 /* opportunity.png */; };
+		1B1BB9980000000000000000 /* proposal.png in Resources */ = {isa = PBXBuildFile; fileRef = 1EACC6360000000000000000 /* proposal.png */; };
+		9467A8200000000000000000 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7872000000000000000000 /* settings.png */; };
+		37713B6C0000000000000000 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B02480A0000000000000000 /* settings@2x.png */; };
+		259BFC560000000000000000 /* xamarin-icon-simplified.png in Resources */ = {isa = PBXBuildFile; fileRef = 292D08F40000000000000000 /* xamarin-icon-simplified.png */; };
+		13C6BD400000000000000000 /* zoom_in.png in Resources */ = {isa = PBXBuildFile; fileRef = 1757C9DE0000000000000000 /* zoom_in.png */; };
+		1F17E2A00000000000000000 /* zoom_out.png in Resources */ = {isa = PBXBuildFile; fileRef = 5828AC800000000000000000 /* zoom_out.png */; };
+		301C3F140000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33AD4BB20000000000000000 /* Info.plist */; };
+		1E46FFFE0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21D80C9C0000000000000000 /* Entitlements.plist */; };
+		FCFEA6A00000000000000000 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1360F7080000000000000000 /* MainStoryboard.storyboard */; };
+		158D4D600000000000000000 /* CapasView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E9E17400000000000000000 /* CapasView.xib */; };
+		1F5D6B6B0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 22EE78090000000000000000 /* AppDelegate.h */; };
+		2B8CC2EA0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1DCF880000000000000000 /* AppDelegate.m */; };
+		451382000000000000000000 /* MappirViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7E244BE00000000000000000 /* MappirViewController.h */; };
+		1CE2CA3A0000000000000000 /* MappirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2073D6D80000000000000000 /* MappirViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34B585730000000000000000 /* Mappir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Mappir.app"; path = "Mappir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5A7CD90000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		10F0200C0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		22927C060000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		15FD5E4F0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3CFF27220000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		12328FBA0000000000000000 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default.png"; path = "Default.png"; sourceTree = "<group>"; };
+		5D50A4000000000000000000 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2E88118E0000000000000000 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		74C86C400000000000000000 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		E3BBCE400000000000000000 /* Icon-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPad@2x.png"; path = "Icon-iPad@2x.png"; sourceTree = "<group>"; };
+		3C667DCE0000000000000000 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon.png"; path = "Icon.png"; sourceTree = "<group>"; };
+		2A913EB80000000000000000 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		18BBFFA20000000000000000 /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "account.png"; path = "account.png"; sourceTree = "<group>"; };
+		233C42600000000000000000 /* chart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chart.png"; path = "chart.png"; sourceTree = "<group>"; };
+		1167034A0000000000000000 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contact.png"; path = "contact.png"; sourceTree = "<group>"; };
+		3F91C4340000000000000000 /* filter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "filter.png"; path = "filter.png"; sourceTree = "<group>"; };
+		DA3139000000000000000000 /* filter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "filter@2x.png"; path = "filter@2x.png"; sourceTree = "<group>"; };
+		1BB462EC0000000000000000 /* item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item.png"; path = "item.png"; sourceTree = "<group>"; };
+		9DF23D600000000000000000 /* lead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "lead.png"; path = "lead.png"; sourceTree = "<group>"; };
+		3809E4C00000000000000000 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list.png"; path = "list.png"; sourceTree = "<group>"; };
+		2634A5AA0000000000000000 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "list@2x.png"; path = "list@2x.png"; sourceTree = "<group>"; };
+		142C83780000000000000000 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map.png"; path = "map.png"; sourceTree = "<group>"; };
+		257446200000000000000000 /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "map@2x.png"; path = "map@2x.png"; sourceTree = "<group>"; };
+		3082054C0000000000000000 /* opportunity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "opportunity.png"; path = "opportunity.png"; sourceTree = "<group>"; };
+		1EACC6360000000000000000 /* proposal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "proposal.png"; path = "proposal.png"; sourceTree = "<group>"; };
+		CD7872000000000000000000 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings.png"; path = "settings.png"; sourceTree = "<group>"; };
+		3B02480A0000000000000000 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings@2x.png"; path = "settings@2x.png"; sourceTree = "<group>"; };
+		292D08F40000000000000000 /* xamarin-icon-simplified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "xamarin-icon-simplified.png"; path = "xamarin-icon-simplified.png"; sourceTree = "<group>"; };
+		1757C9DE0000000000000000 /* zoom_in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zoom_in.png"; path = "zoom_in.png"; sourceTree = "<group>"; };
+		5828AC800000000000000000 /* zoom_out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zoom_out.png"; path = "zoom_out.png"; sourceTree = "<group>"; };
+		33AD4BB20000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		21D80C9C0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		1360F7080000000000000000 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard.storyboard"; path = "MainStoryboard.storyboard"; sourceTree = "<group>"; };
+		4E9E17400000000000000000 /* CapasView.xib */ = {isa = PBXFileReference; name = "CapasView.xib"; path = "CapasView.xib"; sourceTree = "<group>"; };
+		22EE78090000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2F1DCF880000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		7E244BE00000000000000000 /* MappirViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MappirViewController.h"; path = "MappirViewController.h"; sourceTree = "<group>"; };
+		2073D6D80000000000000000 /* MappirViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MappirViewController.m"; path = "MappirViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C173A920000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC9703B0000000000000000 /* UIKit.framework in Frameworks */,
+				D5F136E00000000000000000 /* MapKit.framework in Frameworks */,
+				1F016F680000000000000000 /* Foundation.framework in Frameworks */,
+				126C51B10000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30AC2000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				36CA606C0000000000000000 /* Mappir */,
+				1A74DE980000000000000000 /* Frameworks */,
+				17D864600000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D864600000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B585730000000000000000 /* Mappir.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		1A74DE980000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F5A7CD90000000000000000 /* UIKit.framework */,
+				10F0200C0000000000000000 /* MapKit.framework */,
+				22927C060000000000000000 /* Foundation.framework */,
+				15FD5E4F0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		36CA606C0000000000000000 /* Mappir */ = {
+			isa = PBXGroup;
+			children = (
+				18BBFFA20000000000000000 /* account.png */,
+				22EE78090000000000000000 /* AppDelegate.h */,
+				4E9E17400000000000000000 /* CapasView.xib */,
+				233C42600000000000000000 /* chart.png */,
+				1167034A0000000000000000 /* contact.png */,
+				12328FBA0000000000000000 /* Default.png */,
+				5D50A4000000000000000000 /* Default@2x.png */,
+				3CFF27220000000000000000 /* Default-568h@2x.png */,
+				21D80C9C0000000000000000 /* Entitlements.plist */,
+				3F91C4340000000000000000 /* filter.png */,
+				DA3139000000000000000000 /* filter@2x.png */,
+				3C667DCE0000000000000000 /* Icon.png */,
+				2A913EB80000000000000000 /* Icon@2x.png */,
+				2E88118E0000000000000000 /* Icon-60@2x.png */,
+				74C86C400000000000000000 /* Icon-76@2x.png */,
+				E3BBCE400000000000000000 /* Icon-iPad@2x.png */,
+				33AD4BB20000000000000000 /* Info.plist */,
+				1BB462EC0000000000000000 /* item.png */,
+				9DF23D600000000000000000 /* lead.png */,
+				3809E4C00000000000000000 /* list.png */,
+				2634A5AA0000000000000000 /* list@2x.png */,
+				1360F7080000000000000000 /* MainStoryboard.storyboard */,
+				142C83780000000000000000 /* map.png */,
+				257446200000000000000000 /* map@2x.png */,
+				7E244BE00000000000000000 /* MappirViewController.h */,
+				3082054C0000000000000000 /* opportunity.png */,
+				1EACC6360000000000000000 /* proposal.png */,
+				CD7872000000000000000000 /* settings.png */,
+				3B02480A0000000000000000 /* settings@2x.png */,
+				292D08F40000000000000000 /* xamarin-icon-simplified.png */,
+				1757C9DE0000000000000000 /* zoom_in.png */,
+				5828AC800000000000000000 /* zoom_out.png */,
+				2D6EBAC70000000000000000 /* Supporting Files */,
+			);
+			name = "Mappir";
+			sourceTree = "<group>";
+		};
+		2D6EBAC70000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F1DCF880000000000000000 /* AppDelegate.m */,
+				2073D6D80000000000000000 /* MappirViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BEB29D0000000000000000 /* Mappir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A025F990000000000000000 /* Build configuration list for PBXNativeTarget "Mappir" */;
+			buildPhases = (
+				16B0EEDE0000000000000000 /* Sources */,
+				2C173A920000000000000000 /* Frameworks */,
+				3F9B8E690000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mappir";
+			productName = "Mappir";
+			productReference = 34B585730000000000000000 /* Mappir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260B8CC30000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1BBE2D210000000000000000 /* Build configuration list for PBXProject "Mappir" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C30AC2000000000000000000;
+			productRefGroup = 17D864600000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BEB29D0000000000000000 /* Mappir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9B8E690000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396E1A840000000000000000 /* Default-568h@2x.png in Resources */,
+				EA1831C00000000000000000 /* Default.png in Resources */,
+				3CCC44060000000000000000 /* Default@2x.png in Resources */,
+				2765F8520000000000000000 /* Icon-60@2x.png in Resources */,
+				3BB7A2600000000000000000 /* Icon-76@2x.png in Resources */,
+				AAAB04600000000000000000 /* Icon-iPad@2x.png in Resources */,
+				38D571300000000000000000 /* Icon.png in Resources */,
+				2700321A0000000000000000 /* Icon@2x.png in Resources */,
+				152AF3040000000000000000 /* account.png in Resources */,
+				1FAB35C20000000000000000 /* chart.png in Resources */,
+				DD5F6AC00000000000000000 /* contact.png in Resources */,
+				3C00B7960000000000000000 /* filter.png in Resources */,
+				A1206F200000000000000000 /* filter@2x.png in Resources */,
+				1823564E0000000000000000 /* item.png in Resources */,
+				64E173800000000000000000 /* lead.png in Resources */,
+				3478D8220000000000000000 /* list.png in Resources */,
+				22A3990C0000000000000000 /* list@2x.png in Resources */,
+				109B76DA0000000000000000 /* map.png in Resources */,
+				3EC637C40000000000000000 /* map@2x.png in Resources */,
+				2CF0F8AE0000000000000000 /* opportunity.png in Resources */,
+				1B1BB9980000000000000000 /* proposal.png in Resources */,
+				9467A8200000000000000000 /* settings.png in Resources */,
+				37713B6C0000000000000000 /* settings@2x.png in Resources */,
+				259BFC560000000000000000 /* xamarin-icon-simplified.png in Resources */,
+				13C6BD400000000000000000 /* zoom_in.png in Resources */,
+				1F17E2A00000000000000000 /* zoom_out.png in Resources */,
+				301C3F140000000000000000 /* Info.plist in Resources */,
+				1E46FFFE0000000000000000 /* Entitlements.plist in Resources */,
+				FCFEA6A00000000000000000 /* MainStoryboard.storyboard in Resources */,
+				158D4D600000000000000000 /* CapasView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B0EEDE0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5D6B6B0000000000000000 /* AppDelegate.h in Sources */,
+				2B8CC2EA0000000000000000 /* AppDelegate.m in Sources */,
+				451382000000000000000000 /* MappirViewController.h in Sources */,
+				1CE2CA3A0000000000000000 /* MappirViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4DCF2000000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		110B07470000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Mappir";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BBE2D210000000000000000 /* Build configuration list for PBXProject "Mappir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4DCF2000000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		2A025F990000000000000000 /* Build configuration list for PBXNativeTarget "Mappir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110B07470000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260B8CC30000000000000000 /* Project object */;
+}

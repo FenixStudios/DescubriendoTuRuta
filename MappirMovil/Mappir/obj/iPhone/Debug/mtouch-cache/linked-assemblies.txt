@@ -1,0 +1,4 @@
+/Users/MacUser/Projects/Mappir/Mappir/obj/iPhone/Debug/mtouch-cache/Link/monotouch.dll
+/Users/MacUser/Projects/Mappir/Mappir/obj/iPhone/Debug/mtouch-cache/Link/Mappir.exe
+/Users/MacUser/Projects/Mappir/Mappir/obj/iPhone/Debug/mtouch-cache/Link/mscorlib.dll
+/Users/MacUser/Projects/Mappir/Mappir/obj/iPhone/Debug/mtouch-cache/Link/System.Core.dll

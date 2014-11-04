@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Mappir</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>Mappir</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignKey>iPhone Distribution: Roberto Amador (HXXYN52PM6)</CodesignKey>
+    <CodesignProvision>d0e45d62-ba04-4670-9658-f0b3b904853e</CodesignProvision>
+    <IpaPackageName>
+    </IpaPackageName>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <BuildIpa>true</BuildIpa>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <ConsolePause>false</ConsolePause>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Data" />
+    <Reference Include="Mono.Data.Sqlite" />
+    <Reference Include="System.Json" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Default-568h%402x.png" />
+    <BundleResource Include="Resources\Default.png" />
+    <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Icon-76%402x.png" />
+    <BundleResource Include="Resources\Icon-iPad%402x.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\account.png" />
+    <BundleResource Include="Resources\chart.png" />
+    <BundleResource Include="Resources\contact.png" />
+    <BundleResource Include="Resources\filter.png" />
+    <BundleResource Include="Resources\filter%402x.png" />
+    <BundleResource Include="Resources\item.png" />
+    <BundleResource Include="Resources\lead.png" />
+    <BundleResource Include="Resources\list.png" />
+    <BundleResource Include="Resources\list%402x.png" />
+    <BundleResource Include="Resources\map.png" />
+    <BundleResource Include="Resources\map%402x.png" />
+    <BundleResource Include="Resources\opportunity.png" />
+    <BundleResource Include="Resources\proposal.png" />
+    <BundleResource Include="Resources\settings.png" />
+    <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\xamarin-icon-simplified.png" />
+    <BundleResource Include="Resources\zoom_in.png" />
+    <BundleResource Include="Resources\zoom_out.png" />
+    <BundleResource Include="Resources\Iconos\RedesSociales.png" />
+    <BundleResource Include="Resources\MenuAlertas\Accidente.png" />
+    <BundleResource Include="Resources\MenuAlertas\Bache.png" />
+    <BundleResource Include="Resources\MenuAlertas\Bloqueo.png" />
+    <BundleResource Include="Resources\MenuAlertas\CondicionInseg.png" />
+    <BundleResource Include="Resources\MenuAlertas\Congestionamiento.png" />
+    <BundleResource Include="Resources\MenuAlertas\FondoAlertas.png" />
+    <BundleResource Include="Resources\MenuAlertas\FondoIconos.png" />
+    <BundleResource Include="Resources\MenuAlertas\Helper.cs" />
+    <BundleResource Include="Resources\MenuAlertas\Manifestacion.png" />
+    <BundleResource Include="Resources\MenuAlertas\MenuAlertas.png" />
+    <BundleResource Include="Resources\MenuAlertas\Obras.png" />
+    <BundleResource Include="Resources\MenuAlertas\Policía.png" />
+    <BundleResource Include="Resources\MenuAlertas\RadarVelocidad.png" />
+    <BundleResource Include="Resources\MenuAlertas\Reten.png" />
+    <BundleResource Include="Resources\MenuRadial\AcercaDe.png" />
+    <BundleResource Include="Resources\MenuRadial\AcercaDeSel.png" />
+    <BundleResource Include="Resources\MenuRadial\BuscarRuta.png" />
+    <BundleResource Include="Resources\MenuRadial\BuscarRutaConf.png" />
+    <BundleResource Include="Resources\MenuRadial\BuscarRutaConfSel.png" />
+    <BundleResource Include="Resources\MenuRadial\BuscarRutaSel.png" />
+    <BundleResource Include="Resources\MenuRadial\Capas.png" />
+    <BundleResource Include="Resources\MenuRadial\CapasSel.png" />
+    <BundleResource Include="Resources\MenuRadial\ConfigUsers.png" />
+    <BundleResource Include="Resources\MenuRadial\ConfigUsersSel.png" />
+    <BundleResource Include="Resources\MenuRadial\Configuraciones.png" />
+    <BundleResource Include="Resources\MenuRadial\ConfiguracionesSel.png" />
+    <BundleResource Include="Resources\MenuRadial\Correo.png" />
+    <BundleResource Include="Resources\MenuRadial\MainMenuRadialFondo.png" />
+    <BundleResource Include="Resources\MenuRadial\Menu.png" />
+    <BundleResource Include="Resources\MenuRadial\MisRutas.png" />
+    <BundleResource Include="Resources\MenuRadial\MisRutasSel.png" />
+    <BundleResource Include="Resources\MenuRadial\MisUbicaciones.png" />
+    <BundleResource Include="Resources\MenuRadial\MisUbicacionesSel.png" />
+    <BundleResource Include="Resources\MenuRadial\Play.png" />
+    <BundleResource Include="Resources\MenuRadial\PlaySel.png" />
+    <BundleResource Include="Resources\MenuRadial\SecondMenuRadialFondo.png" />
+    <BundleResource Include="Resources\MenuRadial\TelefonosEmergencia.png" />
+    <BundleResource Include="Resources\MenuRadial\TelefonosEmergenciaSel.png" />
+    <BundleResource Include="Resources\MenuRadial\TransparentBackground.png" />
+    <BundleResource Include="Resources\MenuRadial\CorreoSel.png" />
+    <BundleResource Include="Resources\MenuRadial\BG.png" />
+    <BundleResource Include="Resources\MenuRadial\Fondo.png" />
+    <BundleResource Include="Resources\MenuRadial\ItemBG.png" />
+    <BundleResource Include="Resources\icono.png" />
+    <BundleResource Include="Resources\icono1.png" />
+    <BundleResource Include="Resources\icono2.png" />
+    <BundleResource Include="Resources\icono3.png" />
+    <BundleResource Include="Resources\Rutas\Pin.png" />
+    <BundleResource Include="Resources\Rutas\derLig.png" />
+    <BundleResource Include="Resources\Rutas\izqLig.png" />
+    <BundleResource Include="Resources\Rutas\der.png" />
+    <BundleResource Include="Resources\Rutas\izq.png" />
+    <BundleResource Include="Resources\Rutas\rec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="MappirViewController.cs" />
+    <Compile Include="MappirViewController.designer.cs">
+      <DependentUpon>MappirViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delegate\CustomMapDelegate.cs" />
+    <Compile Include="Controls\MenuAlertas.cs" />
+    <Compile Include="Controls\ToolItem.cs" />
+    <Compile Include="Controls\PositionXY.cs" />
+    <Compile Include="HelperUtilities.cs" />
+    <Compile Include="Delegate\SearchDelegate.cs" />
+    <Compile Include="Controls\SearchSource.cs" />
+    <Compile Include="Controls\RadialMenu.cs" />
+    <Compile Include="Delegate\LocationManagerDelegate.cs" />
+    <Compile Include="Data\Alerta.cs" />
+    <Compile Include="Data\AlertaDatabaseADO.cs" />
+    <Compile Include="Data\AlertaManager.cs" />
+    <Compile Include="Data\AlertaRepositoryADO.cs" />
+    <Compile Include="AlertasMap.cs" />
+    <Compile Include="Data\AnotacionRuta.cs" />
+    <Compile Include="Delegate\CustomMapDelegateRuta.cs" />
+    <Compile Include="Indicaciones\TableItem.cs" />
+    <Compile Include="Indicaciones\TableSource.cs" />
+    <Compile Include="Indicaciones\IndicaTableView.cs.cs" />
+    <Compile Include="Indicaciones\CustomIndicaCell.cs" />
+    <Compile Include="BuscarRuta\BuscarRutaView.cs" />
+    <Compile Include="RutasEncontradas\TableItemRutaEncon.cs" />
+    <Compile Include="RutasEncontradas\RutaEnconCell.cs" />
+    <Compile Include="RutasEncontradas\RutaEnconTableSource.cs" />
+    <Compile Include="RutasEncontradas\RutaEnconTableView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Delegate\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Controls\" />
+    <Folder Include="Resources\Rutas\" />
+    <Folder Include="Indicaciones\" />
+    <Folder Include="BuscarRuta\" />
+    <Folder Include="RutasEncontradas\" />
+  </ItemGroup>
+</Project>

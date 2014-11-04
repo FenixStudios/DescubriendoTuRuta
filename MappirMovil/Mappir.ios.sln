@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappir", "Mappir\Mappir.csproj", "{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapasView", "CapasView\CapasView.csproj", "{716DA62B-9020-49E5-BD1C-FEAD0020B26A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Release|iPhone.Build.0 = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{716DA62B-9020-49E5-BD1C-FEAD0020B26A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Release|iPhone.Build.0 = Release|iPhone
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FB63C70A-3CFE-4C14-BA8E-4E92B678F974}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Mappir\Mappir.csproj
+	EndGlobalSection
+EndGlobal
